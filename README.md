@@ -4,7 +4,8 @@ Install rbenv:
 
     $ brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
     $ mkdir ~/git/config/
-    $ echo 'eval "$(rbenv init -)"' >> ~/git/config/env.sh
+    $ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    $ source ~/.zshrc
 
 Install Ruby:
 
